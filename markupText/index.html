@@ -1,0 +1,136 @@
+<!doctype html>
+<html class="pl" lang="">
+
+<head>
+  <meta charset="utf-8">
+  <title>Markup Text Project</title>
+  <meta name="author" content="Aleksander Czachór">
+  <meta name="description" content="This is a markup text project designed to show my HTML knowledge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <meta property="og:title" content="">
+  <meta property="og:type" content="">
+  <meta property="og:url" content="">
+  <meta property="og:image" content="">
+
+  <link rel="manifest" href="site.webmanifest">
+  <link rel="apple-touch-icon" href="icon.png">
+
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/main.css">
+
+  <meta name="theme-color" content="#fafafa">
+
+  <style>
+    .right-align-offset-5 {
+      text-align: right;
+      padding-right: 5px;
+      box-sizing: border-box;
+    }
+  </style>
+
+  <style>
+    .left-align-offset-5 {
+      text-align: left;
+      padding-left: 5px;
+      box-sizing: border-box;
+    }
+  </style>
+  <style>
+    dt {
+      white-space: pre;
+    }
+    dt::before {
+      content: "\2022";
+      display: inline-block;
+      width: 0.5em;
+      margin-right: 0.5em;
+    }
+    dd {
+      width: 66%;
+    }
+
+  </style>
+</head>
+
+<body class="left-align-offset-5">
+
+  <address class="right-align-offset-5">
+    <strong>Dziekanat</strong><br/>
+    <em><abbr title="Politechnika Warszawska">PW</abbr>, <abbr title="Wydział">Wydz.</abbr> <abbr title="Elektroniki i Technologii Informacyjnych">EiTI</abbr></em><br/>
+    Nowowiejska 15<abbr title="na">/</abbr>19<br/>
+    Warszawa 00-000,<br/>
+    Polska<br/>
+    <strong>Tel:</strong> 123-456-789<br/>
+    <strong>Email:</strong> dziekanat@przyklad.com<br/><br/>
+    <time datetime="2023-06-10">10 czerwca 2023</time><br/>
+  </address>
+
+  <address>
+    <strong>Imię Nazwisko</strong><br/>
+    Ulica 1<abbr title="Mieszkania">m</abbr>29<br/>
+    Warszawa 00-000,<br/>
+    Polska<br/>
+  </address>
+
+  <br/>
+
+  <h1>Re: Wniosek o przyjęcie do grup projektowych.</h1>
+  <p>Dzień dobry,<br/><br/>
+    Dziękujemy za aplikcję do grup projektowych.<br/>
+    informujemy, że dostał się Pan do nastepujących grup projektowych:
+  </p>
+
+  <dl>
+    <dt>Oprogramowania Sieci Instancji<strong>  #wZespole  #C++  #SQL</strong></dt>
+    <dd>
+      W tej grupie projektowej nauczy się Pan jak tworzyć oprogramowanie sieciowe dla grupy obiektów.<br/>
+      Celem projektu jest nauczenie studentow tworzenia skalowalnego i wydajnego kodu, z jednoczesnym zapewnieniem ochrony informacji.<br/>
+      W trakcie trwania projektu stworzy Pan, razem z zespołem, oprogramowanie do użytku przez sieć bibliotek publicznych.
+    </dd>
+    <dt>Nowoczesne Strony Internetowe<strong>  #Samodzielny  #HTML5  #CSS  #JavaScript  #PHP</strong></dt>
+    <dd>
+      W tej grupie projektowej nauczy się Pan procesu tworzenia stron internetowych.<br/>
+      Celem projektu jest pokazanie studentom, w jaki spodób są tworzone nowoczesne strony internetowe, oraz zapoznanie ich z narzędziami tworzenia takowych stron.<br/>
+      W trakcie trwania projektu stworzy Pan własną stronę internetową, z możliwością założenia na niej konta i przesyłania na nią plików z urządzeń.<br/>
+      Strona będzie musiała być dostosowana do różnych szerokości ekranu.
+    </dd>
+    <dt>Technologia embedded<strong>  #wZespole  #C  #C++  #Rust</strong></dt>
+    <dd>
+      W tej grupie projektowej nauczy się Pan tworzyć oprogramowania technologii embedded.<br/>
+      Celem projektu jest nauczenie studentów zasad programowania małych urządzeń i wydajnego dysponowania pamięc ią RAM i ROM.<br/>
+      W trakcie trwania projektu zaprojektuje pan oprogramowanie do zdalnego kontrolowania poruszaniem się pojazdem.
+    </dd>
+    <dt>Machine Learning<strong>  #wZespole  #Python  #R</strong></dt>
+    <dd>
+      W tej grupie projektowej nauczy się Pan tworzyć oprogramowanie Sztucznej Inteligencji.<br/>
+      Celem projektu jest nauczenie studentów zasad tworzeia AI oraz sposobów nauczania i rozwijania sztucznej inteligencji.<br/>
+      W trakcie trwania projektu stworzy pan wybrany przez siebie model AI, oraz doprowadzi Pan go do wydajnego działania.
+    </dd>
+  </dl>
+  <p>
+    Ma Pan czas na wybranie grupy projektowej do <strong><time datetime="2023-07-05">5 lipca 2023</time>roku.</strong><br/>
+    Wybraną grupę proszę zaznaczyć w <strong>systemie USOS</strong>.<br/>
+    W przypadku nie wybrania grupy projektowej zostanie pan przydzielony <strong>losowo</strong>.
+  </p>
+  <p>
+    Z poważaniem,<br/>
+    Dziekanat wydziału Elektroniki i Technologii Informacyjnych Politechniki Warszawskiej.
+  </p>
+  <footer>
+    Mail został wysłany poprzez system <a href="https://usosweb.usos.pw.edu.pl/kontroler.php?_action=news/default">USOS</a>.
+  </footer>
+
+  <script src="js/vendor/modernizr-3.11.2.min.js"></script>
+  <script src="js/plugins.js"></script>
+  <script src="js/main.js"></script>
+
+  <!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. -->
+  <script>
+    window.ga = function () { ga.q.push(arguments) }; ga.q = []; ga.l = +new Date;
+    ga('create', 'UA-XXXXX-Y', 'auto'); ga('set', 'anonymizeIp', true); ga('set', 'transport', 'beacon'); ga('send', 'pageview')
+  </script>
+  <script src="https://www.google-analytics.com/analytics.js" async></script>
+</body>
+
+</html>
